@@ -1,0 +1,6 @@
+[ 2015-06-27T10:19:53+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/hunlian_back/index.php?s=/Public/login/
+ERR: 无法加载模块:Public
+
+[ 2015-06-27T12:46:30+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/hunlian_back/index.php?s=/Admin/index
+ERR: 无法加载模块:index
+

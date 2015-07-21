@@ -1,0 +1,26 @@
+[ 2015-07-11T23:59:57+08:00 ] 127.0.0.1 /Index/getCity
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xiyuan\ThinkPHP3.1.3_full\ThinkPHP3.1.3_full\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\xiyuan\ThinkPHP3.1.3_full\ThinkPHP3.1.3_full\hunlian_front\Lib\Action\IndexAction.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\xiyuan\ThinkPHP3.1.3_full\ThinkPHP3.1.3_full\hunlian_front\Lib\Action\IndexAction.class.php 第 104 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xiyuan\ThinkPHP3.1.3_full\ThinkPHP3.1.3_full\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: select serialId,cityName from city where cityUpIdNum=1 [ RunTime:0.000000s ]
+
+[ 2015-07-11T23:59:58+08:00 ] 127.0.0.1 /Index/getDistrict
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xiyuan\ThinkPHP3.1.3_full\ThinkPHP3.1.3_full\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\xiyuan\ThinkPHP3.1.3_full\ThinkPHP3.1.3_full\hunlian_front\Lib\Action\IndexAction.class.php 第 127 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' D:\xiyuan\ThinkPHP3.1.3_full\ThinkPHP3.1.3_full\hunlian_front\Lib\Action\IndexAction.class.php 第 127 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xiyuan\ThinkPHP3.1.3_full\ThinkPHP3.1.3_full\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: select serialId,districtName from district where districtUpIdNum=1 [ RunTime:0.002000s ]
+

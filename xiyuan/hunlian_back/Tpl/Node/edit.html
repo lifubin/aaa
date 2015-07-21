@@ -1,0 +1,67 @@
+
+<include file="Public:header" />
+
+<!--sidebar-menu-->
+<include file="Public:sidebar" />
+<!--sidebar-menu-->
+
+
+
+
+
+  
+<!--End-breadcrumbs-->
+<div class="container-fluid">
+	<div class="widget-box">
+		  <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+            <h5>编辑节点</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <form class="form-horizontal" method="post" action="__URL__/update" name="node_form" id="node_form" novalidate="novalidate">
+              <input type="hidden" name="id" value="{$vo.id}" />
+              <div class="control-group">
+                <label class="control-label">节点名</label>
+                <div class="controls">
+                  <input type="text" name="name" id="name" value="{$vo.name}" >
+                </div>
+              </div>
+              
+              <div class="control-group">
+                <label class="control-label">标题</label>
+                <div class="controls">
+                  <input type="text" name="title" id="title" value="{$vo.title}" maxlength="32" >
+                </div>
+              </div>
+              
+              <div class="control-group">
+	              <label class="control-label">父节点</label>
+	              <div class="controls">
+	                <select name="pid" id="pid" style="width:30%;">
+	              		<option value="0">顶级节点</option>
+	                	<volist id="item" name="list">
+		                  <option <?php if($vo["pid"]==$item['id']){echo "selected=true";} ?> value="{$item['id']}"><?php echo str_repeat("&nbsp;&nbsp;&nbsp;",$item['level']); ?>{$item["title"]}</option>
+	                  	</volist>
+	                </select>
+	              </div>
+              </div>
+              
+             <div class="control-group">
+                <label class="control-label">排序</label>
+                <div class="controls">
+                  <input type="text" name="sort" id="sort" value="{$vo.sort}"  />
+                </div>
+              </div>
+              
+              <div class="form-actions">
+                <input type="submit" value="提交" class="btn btn-success">
+              </div>
+            </form>
+		</div>
+		</div>
+	</div>
+
+
+<!--end-main-container-part-->
+
+<include file="Public:footer" />
+

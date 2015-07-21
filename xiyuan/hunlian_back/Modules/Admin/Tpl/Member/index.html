@@ -1,0 +1,52 @@
+<include file="Public:header" />
+
+<!--sidebar-menu-->
+<include file="Public:sidebar" />
+<!--sidebar-menu-->
+
+
+<!--End-breadcrumbs-->
+	<div class="widget-box">
+		<div class="widget-content">
+			<a href="__URL__/add" class="btn btn-info">新建</a>
+		</div>
+		<div class="widget-content">
+	       <table class="table table-bordered table-striped">
+	         <thead>
+	           <tr>
+	             <th>id</th>
+	             <th>账号名</th>
+	             <th>邮箱</th>
+	             <th>最后登录时间</th>
+	             <th>最后登录ip</th>
+	             <th>登录次数</th>
+	             <th>状态</th>
+	             <th>操作</th>
+	           </tr>
+	         </thead>
+	         <tbody>
+	        	<volist id="item" name="list" >
+		         	<tr class="odd gradeX">
+		             <td>{$item["id"]}</td>
+		             <td>{$item["account"]}</td>
+		             <td>{$item["email"]}</td>
+		             <td><?php echo date("Y-m-d h:i:s",$item["last_login_time"]); ?></td>
+		             <td>{$item["last_login_ip"]}</td>
+		             <td>{$item["login_count"]}</td>
+		             <td class="center"><?php if($item["status"]){echo "可用";}else{echo "不可用"; } ?></td>
+		             <td class="center"> <a href="__URL__/edit/id/{$item['id']}" class="btn btn-primary btn-mini">修改</a> <a href="#" class="btn btn-danger btn-mini">删除</a></td>
+		           	</tr>
+	           	</volist>
+	         </tbody>
+	       </table>
+	     </div>
+	     <!--  分页显示区域 -->
+		<div class="page">{$page}</div>
+	</div>
+	
+<!--end-main-container-part-->
+
+<include file="Public:footer" />
+
+
+

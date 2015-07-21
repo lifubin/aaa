@@ -1,0 +1,7 @@
+[ 2014-06-13T14:41:13+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) D:\www\ThinkPHP3.1.3_full\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Can't connect to MySQL server on 'localhost' (10061)
+

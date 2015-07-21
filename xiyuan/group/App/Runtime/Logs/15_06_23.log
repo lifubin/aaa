@@ -1,0 +1,210 @@
+[ 2015-06-23T15:43:27+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Index/index.html
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057509s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000547s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000530s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003218s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001722s ]
+
+[ 2015-06-23T15:43:28+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/top
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028549s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000549s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003279s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2015-06-23T15:43:28+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/drag
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000573s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2015-06-23T15:43:28+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/menu
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046498s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000532s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002538s ]
+
+[ 2015-06-23T15:43:28+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/footer
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000667s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000650s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005750s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2015-06-23T22:37:22+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Index/index.html
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000779s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005442s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2015-06-23T22:37:22+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/top
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.110205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110391s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001958s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013049s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-06-23T22:37:23+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/menu
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.254606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254791s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005793s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.018411s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002973s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033617s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005419s ]
+
+[ 2015-06-23T22:37:23+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/drag
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.223001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.223172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001914s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007753s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.026633s ]
+INFO: [ view_end ] --END-- [ RunTime:0.026759s ]
+
+[ 2015-06-23T22:37:24+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/footer
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.249573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.249754s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001281s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.018519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026341s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001675s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2015-06-23T22:42:42+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Index
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032598s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001282s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004637s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014872s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015520s ]
+
+[ 2015-06-23T22:42:43+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/top
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.107121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107293s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012642s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.028667s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.025739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.068009s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001013s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2015-06-23T22:42:44+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/drag
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.150741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.014272s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002119s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021938s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2015-06-23T22:42:44+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/menu
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.151717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151950s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002296s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.027008s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033851s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003235s ]
+
+[ 2015-06-23T22:42:45+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/group/index.php?s=/Admin/Public/footer
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.161361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161543s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001031s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005718s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001507s ]
+

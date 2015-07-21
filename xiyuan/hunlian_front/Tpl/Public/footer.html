@@ -1,0 +1,86 @@
+
+  <div class="container">
+        <div class="row">
+            <div class="span12 love_badge copy">
+            </div>
+			<div align="center">More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - you could <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">给我留言</a></div>
+        </div>
+    </div>
+
+
+<!-- 登录（Modal） -->
+<div class="modal fade hide" id="loginwin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+            <h4 class="modal-title" id="myModalLabel">登录</h4>
+         </div>
+         
+         <div class="modal-body">
+         	<div class="alert alert-danger hide"></div>
+         	<form id="loginAjax" class="form-horizontal" >
+         		   <div class="form-group">
+				      <label for="name">姓名</label>
+      <input type="text" name="login_mobile" id="login_mobile" placeholder="手机号" class="text ui-widget-content ui-corner-all">
+       </div>
+       <div class="form-group"> <label for="password">密码</label>
+      <input type="password" name="login_password" id="login_password" placeholder="密码" class="text ui-widget-content ui-corner-all">
+ 				   </div>
+         	</form>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            <button type="button" class="btn btn-primary" id="loginwin_submit">提交</button>
+         </div>
+      </div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+
+
+<div class="modal fade hide" id="registerwin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+            <h4 class="modal-title" id="myModalLabel">注册</h4>
+         </div>
+         
+         <div class="modal-body">
+         	<div class="alert alert-danger hide"></div>
+         	<form id="regform" class="form-horizontal" >
+         		   <div class="form-group"><label for="name">手机号</label>
+      <input type="text" name="reg_mobile" id="reg_mobile" value="" class="text ui-widget-content ui-corner-all" placeholder="手机号"></div>
+          <div class="form-group"><label for="password">密码</label>
+      <input type="password" name="reg_password" id="reg_password" value="" class="text ui-widget-content ui-corner-all" placeholder="密码"></div>
+   	  <input type="hidden" name="verify_session" id="verify_session">
+         	</form>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            <button type="button" class="btn btn-primary" id="registerwin_submit">提交</button>
+         </div>
+      </div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+
+</body>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/bootstrap-carousel.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/lightbox/jquery.lightbox.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/main.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.form.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.cookie.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+        	$('.lightbox').lightbox();
+
+        });
+
+        $("nav select").change(function () {
+            window.location = $(this).find("option:selected").val();
+        });
+        
+</script>
+</html>

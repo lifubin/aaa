@@ -1,0 +1,44 @@
+<include file="Public:header" />
+
+<!--sidebar-menu-->
+<include file="Public:sidebar" />
+<!--sidebar-menu-->
+
+
+<!--End-breadcrumbs-->
+	<div class="widget-box">
+		<div class="widget-content">
+			<a href="__URL__/add" class="btn btn-info">新建</a>
+		</div>
+		<div class="widget-content">
+	       <table class="table table-bordered table-striped">
+	         <thead>
+	           <tr>
+	             <th>id</th>
+	             <th>title</th>
+	             <th>name</th>
+	             <th>排序</th>
+	             <th>状态</th>
+	             <th>操作</th>
+	           </tr>
+	         </thead>
+	         <tbody>
+	        	<volist id="item" name="nodeList" >
+		         	<tr class="odd gradeX">
+		             <td>{$item["id"]}</td>
+		             <td><?php echo str_repeat("&nbsp;",$item['level']*3); ?>|---{$item["title"]}</td>
+		             <td>{$item["name"]}</td>
+		             <td class="center">{$item["sort"]}</td>
+		             <td class="center"><?php if($item["status"]){echo "可用";}else{echo "不可用"; } ?></td>
+		             <td class="center"> <a href="__URL__/edit/id/{$item['id']}" class="btn btn-primary btn-mini">修改</a> <a href="#" class="btn btn-danger btn-mini">删除</a></td>
+		           	</tr>
+	           	</volist>
+	         </tbody>
+	       </table>
+	     </div>
+	</div>
+
+<!--end-main-container-part-->
+
+<include file="Public:footer" />
+

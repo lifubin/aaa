@@ -1,0 +1,41 @@
+[ 2015-06-22T16:28:05+08:00 ] 127.0.0.1 /ThinkPHP3.1.3_full/relation/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.004499s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_member`
+NOTIC: [8] Undefined offset:  0 D:\www\ThinkPHP3.1.3_full\ThinkPHP\Lib\Core\Db.class.php 第 701 行.
+SQL: INSERT INTO `think_member` (`name`,`dept_id`) VALUES ('thinkphp',1) [ RunTime:0.004007s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_member` (`name`,`dept_id`) VALUES ('thinkphp',1)
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000458s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000475s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+SQL: SELECT * FROM `think_member` ORDER BY id desc LIMIT 2   [ RunTime:0.000458s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` ORDER BY id desc LIMIT 2  
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ThinkPHP3.1.3_full\relation\Lib\Action\IndexAction.class.php 第 41 行.
+NOTIC: [8] Undefined offset:  0 D:\www\ThinkPHP3.1.3_full\ThinkPHP\Lib\Core\Db.class.php 第 281 行.
+SQL: UPDATE `think_member` SET `id`=0,`name`='tp',`dept_id`=2 WHERE ( `id` = 0 ) [ RunTime:0.000512s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : UPDATE `think_member` SET `id`=0,`name`='tp',`dept_id`=2 WHERE ( `id` = 0 )
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000439s ]
+ERR: 1146:Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076496s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009796s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001734s ]
+

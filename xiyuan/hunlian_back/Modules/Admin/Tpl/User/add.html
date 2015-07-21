@@ -1,0 +1,72 @@
+<include file="Public:header" />
+
+<!--sidebar-menu-->
+<include file="Public:sidebar" />
+<!--sidebar-menu-->
+
+
+<!--End-breadcrumbs-->
+<div class="container-fluid">
+	<div class="widget-box">
+		  <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+            <h5>添加用户</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <form class="form-horizontal" method="post" action="__URL__/insert" name="node_form" id="node_form" novalidate="novalidate">
+              
+              <div class="control-group">
+                <label class="control-label">账号名</label>
+                <div class="controls">
+                  <input type="text" name="account" id="name"  >
+                </div>
+              </div>
+              
+              <div class="control-group">
+                <label class="control-label">账号昵称</label>
+                <div class="controls">
+                  <input type="text" name="nickname" id="name"  >
+                </div>
+              </div>
+              
+              <div class="control-group">
+                <label class="control-label">email</label>
+                <div class="controls">
+                  <input type="text" name="email" id="title" maxlength="32" >
+                </div>
+              </div>
+              
+            <div class="control-group" style="width:50%">
+              <label class="control-label">选择角色</label>
+              <div class="controls" >
+                <select multiple >
+                  <option>First option</option>
+                  <option selected>Second option</option>
+                  <option>Third option</option>
+                  <option>Fourth option</option>
+                  <option>Fifth option</option>
+                  <option>Sixth option</option>
+                  <option>Seventh option</option>
+                  <option>Eighth option</option>
+                </select>
+              </div>
+            </div>
+              
+             <div class="control-group">
+                <label class="control-label">排序</label>
+                <div class="controls">
+                  <input type="text" name="sort" id="sort"   />
+                </div>
+              </div>
+              
+              <div class="form-actions">
+                <input type="submit" value="提交" class="btn btn-success">
+              </div>
+            </form>
+		</div>
+		</div>
+	</div>
+
+<!--end-main-container-part-->
+
+<include file="Public:footer" />
+

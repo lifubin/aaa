@@ -1,0 +1,92 @@
+<include file="Public:header" />
+
+<!--sidebar-menu-->
+<include file="Public:sidebar" />
+<!--sidebar-menu-->
+
+
+<!--End-breadcrumbs-->
+<div class="container-fluid">
+	<div class="widget-box">
+		  <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+            <h5>添加角色</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <form class="form-horizontal" method="post" action="__URL__/update" name="role_form" id="role_form" novalidate="novalidate">
+              <input type="hidden" name="id" value="{$vo.id}" />
+              <div class="control-group">
+                <label class="control-label">角色名</label>
+                <div class="controls">
+                  <input type="text" name="name" id="name" value="{$vo.name}"  >
+                </div>
+              </div>
+              
+               <div class="control-group">
+                <label class="control-label">角色英文名</label>
+                <div class="controls">
+                  <input type="text" name="ename" id="ename" value="{$vo.ename}"  >
+                </div>
+              </div>
+              
+              <div class="control-group">
+              	<volist id="item" name="nodelist">
+	              <label class="control-label"><div class="checker" id="uniform-undefined"><span class=""><input type="checkbox" class="{$item['name']}" name="node[{$item['id']}]" value="{$item['id']}" style="opacity: 0;" <?php if(isset($accesslist[$item['id']])){echo "checked=checked";} ?> ></span></div>
+	                  {$item["title"]}</label>
+	              <div class="controls">
+	              	<volist id="item1" name="item[subnode]" >
+		                <label>
+		                  <div class="checker" id="uniform-undefined"><span class=""><input type="checkbox" class="{$item['name']} {$item1['name']}" name="node[{$item1['id']}]" value="{$item1['id']}" style="opacity: 0;" <?php if(isset($accesslist[$item1['id']])){echo "checked=checked";} ?> ></span></div>
+		                  {$item1["title"]}
+		                </label>
+		                <div style="margin:15px 15px 15px 20px;">
+		                	<volist id="item2" name="item1[subnode]" >
+		                		<label>
+				                  <div class="checker" id="uniform-undefined"><span class=""><input type="checkbox" class="{$item['name']} {$item1['name']} {$item2['name']}" value="{$item2['id']}" name="node[{$item2['id']}]" style="opacity: 0;"  <?php if(isset($accesslist[$item2['id']])){echo "checked=checked";} ?> ></span></div>
+				                  {$item2["title"]}
+				                </label>
+		                	</volist>
+		                </div>
+	                </volist>
+	              </div>
+	             </volist>
+              </div>
+              
+              <div class="form-actions">
+                <input type="submit" value="提交" class="btn btn-success">
+              </div>
+            </form>
+		</div>
+		</div>
+	</div>
+
+<!--end-main-container-part-->
+
+
+<include file="Public:footer" />
+<script>
+	$(function(){
+		$("input[type=checkbox]").click(function(){
+			var checkedStatus = this.checked;
+			var checkbox = $(this).parents('label').next("div").find("span");
+			var t= $(this);
+			console.log(checkedStatus);
+			if(checkedStatus){
+				t.attr('checked','checked');
+			}else{
+				t.removeAttr('checked');
+			}
+			checkbox.each(function() {
+				this.checked = checkedStatus;
+				if (checkedStatus == this.checked) {
+					$(this).closest('.checker > span').removeClass('checked');
+					$(this).children('input[type=checkbox]').removeAttr('checked','checked');
+				}
+				if (this.checked) {
+					$(this).closest('.checker > span').addClass('checked');
+					$(this).children('input[type=checkbox]').attr('checked','checked');
+				}
+			});
+						
+		});
+	});
+</script>

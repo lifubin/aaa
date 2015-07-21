@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+#loginwin{
+	z-index:99999;
+	display:none;
+}
+
+#registerwin{
+	z-index:99999;
+	display:none;
+}
